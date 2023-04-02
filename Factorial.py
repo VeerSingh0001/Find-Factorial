@@ -1,3 +1,5 @@
+# Program for finding Factorial of number in python.
+
 def fact(val):
     firstval = 1
     secondval = 2
