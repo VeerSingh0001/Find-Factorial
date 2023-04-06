@@ -1,5 +1,6 @@
 # Program for finding Factorial of number in python.
-
+import sys
+sys.set_int_max_str_digits(999999999)
 def fact(val):
     firstval = 1
     secondval = 2
