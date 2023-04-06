@@ -4,9 +4,9 @@ sys.set_int_max_str_digits(999999999)
 def fact(val):
     firstval = 1
     secondval = 2
-    if val <= 0:
+    if val < 0:
         print('Please enter the value greater than 0!')
-    elif val == 1:
+    elif val == 1 and val == 0:
         print(firstval)
     else:
         for i in range(1, val+1):
